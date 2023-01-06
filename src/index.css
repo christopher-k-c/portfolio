@@ -6,3 +6,11 @@
 body {
   background-color: #000300;
 }
+
+.custom-position {
+  object-position: 55% 0px;
+}
+
+/* .rounded-50 {
+  border-radius: 50px;
+} */

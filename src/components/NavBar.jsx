@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
 
 export const NavBar = () => {
@@ -31,8 +30,6 @@ export const NavBar = () => {
                     <li className='p-4 border-b border-gray-100'>PROJECTS</li>
                     <li className='p-4 border-b border-gray-100'>EXPERIENCE</li>
                     <li className='p-4 border-b border-gray-100'>CONTACT</li>
-
-              
                 </ul>
             </div>
     </div>
