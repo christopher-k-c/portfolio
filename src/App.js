@@ -9,6 +9,7 @@ function App() {
       <NavBar />
       <Landing />
       <About />
+      <div className='spacer layer1'></div>
     </div>
   );
 }
