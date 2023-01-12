@@ -4,6 +4,7 @@ import { ExperienceCard } from './ExperienceCard'
 
 // import GA from './assets/ga.png'
 import Capture from './assets/captureone.png'
+import gif from './assets/terminal.gif'
 
 import test from './assets/test.png'
 import GA from './assets/ga.png'
@@ -12,7 +13,33 @@ export const Experience = () => {
 
     const experience = [
         
-    
+        {   
+            'image': 'captureone',
+            'title': 'landing', 
+            'company': 'Jojo Maman Bebe', 
+            'dates': 'Past and Present',
+            'skills': [
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg",
+                {Capture},
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/filezilla/filezilla-plain.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/magento/magento-original.svg"
+            ],
+            'summary': [
+                "Managed a team of 2 retouchers and 1 photographer",
+                "Coordinated and booked freelance resources and external agencies",
+                "Managed the production process from beginning to end",
+                "Delegated to the team, ensured KPIs and deadlines were met",
+                "Interviewed, trained and compiled personal development reviews",
+                "Processing, editing, compositing and grading images using Adobe Photoshop and Capture One",
+                "Automated Adobe Photoshop processes",
+                "Working with Buying and Design on image amendments and colour correction",
+                "Built guidelines for internal and external use"
+                
+                    
+            ],
+           
+        },    
         {
             'image': 'ga',
             'title': 'Software Engineering Immersive Student', 
@@ -80,33 +107,6 @@ export const Experience = () => {
                     
             ],
            
-        },
-        {   
-            'image': 'captureone',
-            'title': 'landing', 
-            'company': 'Jojo Maman Bebe', 
-            'dates': 'Past and Present',
-            'skills': [
-                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg",
-                {Capture},
-                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
-                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/filezilla/filezilla-plain.svg",
-                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/magento/magento-original.svg"
-            ],
-            'summary': [
-                "Managed a team of 2 retouchers and 1 photographer",
-                "Coordinated and booked freelance resources and external agencies",
-                "Managed the production process from beginning to end",
-                "Delegated to the team, ensured KPIs and deadlines were met",
-                "Interviewed, trained and compiled personal development reviews",
-                "Processing, editing, compositing and grading images using Adobe Photoshop and Capture One",
-                "Automated Adobe Photoshop processes",
-                "Working with Buying and Design on image amendments and colour correction",
-                "Built guidelines for internal and external use"
-                
-                    
-            ],
-           
         }
     ]
 
@@ -137,15 +137,28 @@ export const Experience = () => {
 
         <>
         
-            <motion.article key={index} className='rounded-lg  flex-shrink-0 w-full bg-slate-800 bg-opacity-20 backdrop-blur-xl snap-center p-10 overflow-y-scroll no-scrollbar '>
+            <motion.article key={index} className='relative rounded-lg flex-shrink-0 w-full bg-slate-800 bg-opacity-20 backdrop-blur-xl snap-center p-10 overflow-y-scroll no-scrollbar flex  '>
+                <div className='absolute'>
+                    <h3 className=' xl:text-7xl md:text-6xl sm:text-5xl text-4xl font-bold  text-slate-100 bg-gradient-to-r from-slate-400 via-indigo-600 to-indigo-600 text-transparent bg-clip-text'> Previously the Retouch Manager for Jojomamanbebe, now a General Assembly Software Engineer looking for my first role in the tech industry  </h3>
+                    <p className='w-1/2 pt-10 flex items-end xl:text-4xl md:text-2xl sm:text-2xl text-1xl font-mono'>
+                    I am a recent General Assembly, Software Engineering Immersive Graduate with ten years of combined experience in e-commerce post-production and management. 
+                    My affinity for coding began with automation in Adobe Photoshop, sparking my ambition to pursue a career in development and, ultimately, my enrolment with General Assembly. 
+                </p>
+                
+                </div>
 
-            <div className='bg-black w-1/2 h-full'>
+            <div className=' w-full h-full  '>
 
 
-                <img className='object-cover object-left-top h-full ' src={test} alt="" />
- 
+                <img className='object-cover  h-full mix-blend-luminosity opacity-20 blur' src={gif} alt="" />
+
 
             </div>
+
+
+            
+
+ 
 
         
             </motion.article>
