@@ -39,6 +39,7 @@ export const Landing = () => {
                 <button className='drop-shadow-lg w-[200px] rounded-md mx-auto p-2 mt-4 font-bold text-1xl bg-indigo-600 text-black z-0'>Contact</button>
                 </motion.div>
             </div>
+            
             <motion.div 
             
             initial={{
