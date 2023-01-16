@@ -24,7 +24,7 @@ export const ExperienceContainer = ({experience}) => {
                 duration:2
             }}
         >
-            <h3 className=' mt-20 pt-10 pl-[20px] uppercase tracking-[20px] lg:text-7xl md:text-6xl sm:text-4xl text-2xl font-bold    bg-gradient-to-r from-slate-400 via-indigo-600 to-indigo-600 text-transparent bg-clip-text z-20'>Experience</h3>
+            <h3 className=' mt-20 pt-10 pl-[20px] uppercase tracking-[20px] lg:text-7xl md:text-6xl sm:text-4xl text-lg font-bold    bg-gradient-to-r from-slate-400 via-indigo-600 to-indigo-600 text-transparent bg-clip-text z-20'>Experience</h3>
         </motion.div>
 
         <ExperienceCards className='z-10 ' experience={experience}></ExperienceCards>
