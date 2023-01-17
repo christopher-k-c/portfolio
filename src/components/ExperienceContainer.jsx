@@ -2,7 +2,7 @@ import React from 'react'
 import { ExperienceCards } from './ExperienceCards'
 import {motion} from 'framer-motion'
 
-export const ExperienceContainer = ({experience}) => {
+export const ExperienceContainer = ({data}) => {
   return (
     <div className='h-screen relative flex flex-col items-center'>
 
@@ -27,7 +27,7 @@ export const ExperienceContainer = ({experience}) => {
             <h3 className=' mt-20 pt-10 pl-[20px] uppercase tracking-[20px] lg:text-7xl md:text-6xl sm:text-4xl text-lg font-bold    bg-gradient-to-r from-slate-400 via-indigo-600 to-indigo-600 text-transparent bg-clip-text z-20'>Experience</h3>
         </motion.div>
 
-        <ExperienceCards className='z-10 ' experience={experience}></ExperienceCards>
+        <ExperienceCards className='z-10 'data={data}></ExperienceCards>
 
 
         <div className='absolute bottom-0 w-full z-0'>

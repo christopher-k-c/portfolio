@@ -1,6 +1,6 @@
 import React from 'react'
 import Typed from 'react-typed'
-import Portrait from './assets/portrait-with-filter-01.jpg'
+import Portrait from './assets/landingImages/portrait-with-filter-01.jpg'
 import {motion} from 'framer-motion'
 
 export const Landing = () => {
@@ -39,7 +39,7 @@ export const Landing = () => {
                 <button className='drop-shadow-lg w-[200px] rounded-md mx-auto p-2 mt-4 font-bold text-1xl bg-indigo-600 text-black z-0'>Contact</button>
                 </motion.div>
             </div>
-            
+
             <motion.div 
             
             initial={{
