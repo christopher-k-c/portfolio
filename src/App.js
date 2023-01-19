@@ -7,7 +7,7 @@ import experienceData from './experienceData.json'
 import projectData from './projectsData.json'
 
 
-console.log(projectData)
+
 
 
 function App() {

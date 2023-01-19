@@ -85,16 +85,16 @@ export const ExperienceCards = ({data}) => {
                             <h4 className='xl:text-6xl md:text-5xl sm:text-4xl text-3xl pb-2 font-bold mt-2 bg-gradient-to-r from-slate-400 via-indigo-600 to-indigo-600 text-transparent bg-clip-text '>{data[currentIndex].title}</h4>
                             <p className='xl:text-5xl md:text-4xl sm:text-3xl text-2xl pb-2 font-semibold mt-1 text-indigo-600 '>{data[currentIndex].company}</p>
                             <div className='grid grid-cols-5 pt-2 '>
-                                {data[currentIndex].skills.map((skill) => (
-                                    console.log(skill, "skill"),
-                                    <img className='w-10 h-10 z-10 ' src={skill} />
+                                {data[currentIndex].skills.map((skill, index) => (
+
+                                    <img className='w-10 h-10 z-10 ' src={skill} alt={index}/>
                                 ))}
                             </div>
                             <p className='uppercase  text-slate-500 pt-4'>{data[currentIndex].dates}</p>
                             <ul className='list-disc ml-5 space-y-4  sm:text-2xl text-xs  font-mono pb-96'>
             
-                                {data[currentIndex].summary.map((nestedSkills) => (
-                                    <li className='pt-2'>{nestedSkills}</li>
+                                {data[currentIndex].summary.map((nestedSkills, index) => (
+                                    <li key={index} className='pt-2'>{nestedSkills}</li>
                                 ))}
             
                             </ul>
