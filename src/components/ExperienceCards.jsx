@@ -38,7 +38,7 @@ export const ExperienceCards = ({data}) => {
     <div className='h-4/5 w-full py-20 px-10 relative group z-10'>
 
         {/* Image Container */}
-        <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500  bg-slate-800 bg-opacity-90 backdrop-blur-xl overflow-y-scroll no-scrollbar relative'>
+        <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500  bg-slate-800 backdrop-blur-xl overflow-y-scroll no-scrollbar relative'>
 
             {/* Top Shadow */}
             <div className=' w-full h-[50px] sticky top-0 flex justify-center items-center md:text-7xl text-2xl  z-20 bg-gradient-to-b from-gray-900 to-transparent'></div>
@@ -61,7 +61,7 @@ export const ExperienceCards = ({data}) => {
                 </>
                 :
                 <>
-                    <div className='grid grid-cols-1 place-items-center relative'>
+                    <div className='grid grid-cols-1 place-items-center relative '>
                         <motion.div
                             initial={{
                                 y:-200
@@ -81,7 +81,7 @@ export const ExperienceCards = ({data}) => {
                             <img className='md:w-60 md:h-60 w-32 h-32 rounded-full bg-gray-900 object-contain object-center p-4 mt-4 flex items-center justify-center border-2 border-indigo-700 ' src={require('./assets/experienceImages/' + data[currentIndex].image + '.png')} alt="" />
                         </motion.div>
 
-                        <div className='pr-10 pl-10'>
+                        <div className='pr-10 pl-10 '>
                             <h4 className='xl:text-6xl md:text-5xl sm:text-4xl text-3xl pb-2 font-bold mt-2 bg-gradient-to-r from-slate-400 via-indigo-600 to-indigo-600 text-transparent bg-clip-text '>{data[currentIndex].title}</h4>
                             <p className='xl:text-5xl md:text-4xl sm:text-3xl text-2xl pb-2 font-semibold mt-1 text-indigo-600 '>{data[currentIndex].company}</p>
                             <div className='grid grid-cols-5 pt-2 '>

@@ -9,14 +9,15 @@ export const NavBar = () => {
         setNav(!nav)
     }
 
+    
+
   return (
     <div className='py-4 px-10 flex items-center justify-around w-full mx-auto text-slate-100 lg:items-center'>
-        <h1 className='w-full text-3xl font-bold text-indigo-600 font-inter '>CHRISTOPHER CAREY.</h1>
+        <a href="#landing"><h1 className='w-full text-3xl font-bold text-indigo-600 font-inter '>CHRISTOPHER CAREY.</h1></a>
             <ul className='hidden md:flex'>
-                <li className='p-4'>About</li>
-                <li className='p-4'>Home</li>
-                <li className='p-4'>Projects</li>
-                <li className='p-4'>Experience</li>
+                <a href="#landing"><li className='p-4'>Home</li></a>
+                <a href="#experience"><li className='p-4'>About</li></a>
+                <a href="#projects"><li className='p-4'>Projects</li></a>
                 <li className='p-4'>Contact</li>
             </ul>
             <div onClick={handleNav} className='block md:hidden'>
