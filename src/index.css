@@ -29,3 +29,11 @@
   object-position: 55% 0px;
 }
 
+
+
+.gradient {
+  background-color: #1A1540;
+
+  background: radial-gradient(ellipse at top, rgb(22 18 55 / -40%), rgba(30, 0, 255, 0.3)), url(https://grainy-gradients.vercel.app/noise.svg); 
+
+}
