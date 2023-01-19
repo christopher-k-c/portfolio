@@ -10,7 +10,7 @@ export const NavBar = () => {
     }
 
   return (
-    <div className='fixed top-0 py-4 px-10 flex items-center justify-around w-full mx-auto text-slate-100 z-20 lg:items-center '>
+    <div className='py-4 px-10 flex items-center justify-around w-full mx-auto text-slate-100 lg:items-center'>
         <h1 className='w-full text-3xl font-bold text-indigo-600 font-inter '>CHRISTOPHER CAREY.</h1>
             <ul className='hidden md:flex'>
                 <li className='p-4'>About</li>

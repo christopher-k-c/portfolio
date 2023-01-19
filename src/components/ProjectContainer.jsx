@@ -6,7 +6,7 @@ export const ProjectContainer = ({data}) => {
 
 
   return (
-    <div className='relative flex flex-col items-center'>
+    <div className=' relative flex flex-col items-center z-10'>
 
         <div className='absolute top-0 w-full z-0'>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#6653ff" 
@@ -32,12 +32,7 @@ export const ProjectContainer = ({data}) => {
         <ProjectCards className='z-10' data={data}></ProjectCards>
 
 
-        <div className='absolute bottom-0 w-full z-0'>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#6653ff" 
-            fill-opacity="1" 
-            d="M0,128L40,149.3C80,171,160,213,240,245.3C320,277,400,299,480,277.3C560,256,640,192,720,144C800,96,880,64,960,74.7C1040,85,1120,139,1200,160C1280,181,1360,171,1400,165.3L1440,160L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z" 
-            opacity="0.05"></path></svg>
-        </div>
+
 
     </div>
   )

@@ -13,8 +13,8 @@ console.log(projectData)
 function App() {
 
   return (
-    <div className="bg-gray-900 text-slate-100 h-screen snap-y snap-mandatory overflow-scroll z-0">
-      <nav>
+    <div className="bg-gray-900 text-slate-100 h-screen snap-y snap-mandatory overflow-scroll relative z-50">
+      <nav className="sticky top-0  backdrop-filter backdrop-blur-lg bg-darkRoast bg-opacity-30 w-full z-30">
         <NavBar />
       </nav>
       <section id="landing" className="snap-center">
