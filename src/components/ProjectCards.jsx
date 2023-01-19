@@ -8,15 +8,15 @@ export const ProjectCards = ({data}) => {
 
     const [isFull, setIsFull] = useState(true)
 
-    const [activeId, setActiveId] = useState(null)
+    // const [activeId, setActiveId] = useState(null)
 
-    const handleHoverStart = (event) => {
-        setActiveId(event.target.id);
-    }
+    // const handleHoverStart = (event) => {
+    //     setActiveId(event.target.id);
+    // }
 
-    const handleHoverEnd = (event) => {
-        setActiveId(null);
-    }
+    // const handleHoverEnd = (event) => {
+    //     setActiveId(null);
+    // }
 
 
     const removeTrunc = (event) => {        
@@ -67,8 +67,8 @@ export const ProjectCards = ({data}) => {
                     <h1 className={`text-left xl:text-6xl text-4xl font-bold truncate `}>{item.name}</h1>
                     <p className={`text-left xl:text-4 md:text-3xl sm:text-2xl text-sm text-slate-100 font-bold truncate`}>{item.description}</p>
                     <div className="text-left text-xs">
-                        <a href={item.git} target="_blank"> Github </a>
-                        <a href={item.site} target="_blank"> Site </a>
+                        <a href={item.git} > Github </a>
+                        <a href={item.site} > Site </a>
                     </div>
                 </motion.div>
             </div>
