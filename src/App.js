@@ -5,6 +5,8 @@ import {ExperienceContainer} from './components/ExperienceContainer'
 import { ProjectContainer } from "./components/ProjectContainer";
 import experienceData from './experienceData.json'
 import projectData from './projectsData.json'
+import { TestContainer } from "./components/TestContainer";
+
 
 
 
@@ -23,8 +25,11 @@ function App() {
       <section id="experience" className="snap-center">
         <ExperienceContainer data={experienceData}></ExperienceContainer>
       </section>
-      <section id="projects" className="snap-start">
+      {/* <section id="projects" className="snap-start">
         <ProjectContainer data={projectData}></ProjectContainer>
+      </section> */}
+      <section id="test" className="snap-start">
+        <TestContainer data={projectData}></TestContainer>
       </section>
     </div>
   );

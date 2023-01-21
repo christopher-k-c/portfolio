@@ -8,12 +8,12 @@
         "site": "https://mern-app-kajv.onrender.com/", 
         "image": "project_04", 
         "description": "Over nine days, through harnessing the MERN Stack, and as a group of three, we built an e-commerce-inspired website for bootlegged cassette tapes. ",
-        "Tech": [
+        "tech": [
             "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
             "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
             "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
             "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg",
-            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
+            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
 
         ]
     },
@@ -23,12 +23,12 @@
         "site": "https://thephonoapp.herokuapp.com/" ,
         "image": "project_03", 
         "description": "Inspired by Discogs.com, we built a full-stack record collection app in four days on a Django Framework, connected to a PostgreSQL database which utilised vanilla CSS, Tailwind and JavaScript to style its front-end.",
-        "Tech": [
-            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
-            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
-            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg",
-            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
+        "tech": [
+            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain-wordmark.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
 
         ]
    
@@ -39,12 +39,12 @@
         "site": "https://inventorycontrolsystem02.herokuapp.com/" ,
         "image": "project_02", 
         "description": "Over four days, we built a web application with full CRUD operations, User Authentication and Association. The backend is powered by Node.js, Express, MongoDB and Mongoose; we utilised bootstrap templates and vanilla CSS for the front-end. I was team lead, responsible for user authentication and authorisation and more.",
-        "Tech": [
+        "tech": [
             "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
-            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
             "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
             "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg",
-            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
+            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
 
         ]
     },
@@ -55,11 +55,10 @@
         "image": "project_01", 
         "description": "I built this project with HTML, CSS, JavaScript, JQuery and the SweetAlert Library. This app was my first experience programming in javascript, and the project took four days to complete.",
         "tech": [
-            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
-            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
-            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg",
-            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
+            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
 
         ]
     }
