@@ -4,7 +4,7 @@ import {motion} from 'framer-motion'
 
 export const ExperienceContainer = ({data}) => {
   return (
-    <div className='h-screen relative flex flex-col items-center'>
+    <div className='h-screen relative flex flex-col items-center' >
 
         <div className='absolute top-0 w-full z-0'>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#6653ff" 

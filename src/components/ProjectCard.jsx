@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import {motion} from 'framer-motion'
 
-export const TestCard = ({card}) => {
+export const ProjectCard = ({card}) => {
 
     const [hovered, setHovered] = useState(false);
 
@@ -22,7 +22,7 @@ return (
     
     {viewportWidth > 768 ? 
                 <> 
-                    <div id={card.name}  className={`m-6 overflow-hidden drop-shadow-4xl bg-slate-800 ${viewportWidth > 768 ? 'rounded-3xl' : 'rounded-b-3xl'} snap-center`} >
+                    <div id={card.name}  className={`m-6 overflow-hidden drop-shadow-xl bg-slate-800 ${viewportWidth > 768 ? 'rounded-3xl' : 'rounded-b-3xl'} snap-center`} >
 
                         <div className='w-full '>
                             <div className='text-center'>

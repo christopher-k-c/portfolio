@@ -28,9 +28,8 @@ export const ExperienceCards = ({data}) => {
 
 
 
-    // <div className='fixed bottom-0 bg-black/20 w-full flex justify-center items-center md:text-7xl text-2xl '> 
-    //     <BsChevronDoubleDown></BsChevronDoubleDown>
-    //     </div>
+
+
 
     // MAIN CONTAINER
 
@@ -38,26 +37,24 @@ export const ExperienceCards = ({data}) => {
     <div className='h-4/5 w-full py-20 px-10 relative group z-10'>
 
         {/* Image Container */}
-        <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500  bg-slate-800 backdrop-blur-xl overflow-y-scroll no-scrollbar relative'>
+        <div className='w-full h-full rounded-2xl  duration-500  bg-slate-800 backdrop-blur-xl overflow-y-scroll no-scrollbar relative'>
 
             {/* Top Shadow */}
-            <div className=' w-full h-[50px] sticky top-0 flex justify-center items-center md:text-7xl text-2xl  z-20 bg-gradient-to-b from-gray-900 to-transparent'></div>
+            {/* <div className=' w-full h-[50px] sticky top-0 flex justify-center items-center md:text-7xl text-2xl  z-20 bg-gradient-to-b from-gray-900 to-transparent'></div> */}
             
 
             {/* Conditional Rendering */}
             {data[currentIndex].title === 'landing' ? 
                 <>
-                    <div className='absolute flex flex-col w-full h-full text-center justify-center items-center'>
-                        <h3 className=' xl:text-7xl lg:text-6xl md:text-5xl sm:text-4xl text-2xl font-bold  text-slate-100 bg-gradient-to-r from-slate-400 via-indigo-600 to-indigo-600 text-transparent bg-clip-text px-4'> Previously the Retouch Manager for Jojomamanbebe, now a General Assembly Software Engineer looking for my first role in the tech industry</h3>
+                    <div className=' flex flex-col w-full h-full justify-center items-center overflow-scroll no-scrollbar text-center '>
+                        <h3 className=' xl:text-7xl lg:text-6xl md:text-5xl sm:text-4xl text-2xl font-bold  text-slate-100 bg-gradient-to-r from-slate-400 via-indigo-600 to-indigo-600 text-transparent bg-clip-text px-4 tracking-[5px]'> Previously the Retouch Manager for JoJo Maman Bébé, now a General Assembly Software Engineer looking for my first role in the tech industry</h3>
                         <p className='w-full sm:w-1/2 pt-10 flex items-end xl:text-2xl text-1xl font-mono px-4'>
                             I am a recent General Assembly, Software Engineering Immersive Graduate with ten years of combined experience in e-commerce post-production and management. 
                             My affinity for coding began with automation in Adobe Photoshop, sparking my ambition to pursue a career in development and, ultimately, my enrolment with General Assembly. 
                         </p>
                         <p className='w-1/2 pt-10 flex items-end xl:text-4xl md:text-2xl sm:text-2xl text-1xl font-mono'></p>
                     </div>
-                    <div className=' w-full h-full  '>
-                        <img className='object-cover w-full h-full mix-blend-luminosity opacity-10 blur' src={gif} alt="" />
-                    </div>
+
                 </>
                 :
                 <>
@@ -91,7 +88,7 @@ export const ExperienceCards = ({data}) => {
                                 ))}
                             </div>
                             <p className='uppercase  text-slate-500 pt-4'>{data[currentIndex].dates}</p>
-                            <ul className='list-disc ml-5 space-y-4  sm:text-2xl text-xs  font-mono pb-96'>
+                            <ul className='list-disc ml-5 space-y-4  sm:text-2xl text-xs  font-mono '>
             
                                 {data[currentIndex].summary.map((nestedSkills, index) => (
                                     <li key={index} className='pt-2'>{nestedSkills}</li>

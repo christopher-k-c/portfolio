@@ -42,3 +42,17 @@
   background: radial-gradient(ellipse at top, rgb(22 18 55 / -40%), rgba(30, 0, 255, 0.3)), url(https://grainy-gradients.vercel.app/noise.svg); 
 
 }
+
+
+/* .custom-height{
+  height:50vh
+} */
+
+
+/* @media (max-height: 1074px) {
+  .custom-image-height {
+    height: 30rem;
+    width:auto;
+    
+  }
+} */

@@ -1,11 +1,12 @@
 import React from "react";
 import { NavBar } from "./components/NavBar";
-import { Landing } from "./components/Landing";
+import { LandingContainer } from "./components/LandingContainer";
 import {ExperienceContainer} from './components/ExperienceContainer'
 import { ProjectContainer } from "./components/ProjectContainer";
 import experienceData from './experienceData.json'
 import projectData from './projectsData.json'
-import { TestContainer } from "./components/TestContainer";
+import { ContactContainer } from "./components/ContactContainer";
+
 
 
 
@@ -15,22 +16,24 @@ import { TestContainer } from "./components/TestContainer";
 function App() {
 
   return (
-    <div className="bg-gray-900 text-slate-100 h-screen snap-y snap-mandatory overflow-scroll relative z-50">
-      <nav className="sticky top-0 backdrop-filter backdrop-blur-lg bg-darkRoast bg-opacity-30 w-full z-30">
+    <div className="bg-gray-900 text-slate-100 h-screen snap-y snap-mandatory overflow-scroll relative z-40">
+
+
+      <nav className="sticky top-0 backdrop-filter backdrop-blur-lg bg-darkRoast bg-opacity-30 w-full z-50">
         <NavBar />
       </nav>
-      <section id="landing" className="snap-center">
-        <Landing />
+      <section id="landing"  className="snap-center ">
+        <LandingContainer />
       </section>
-      <section id="experience" className="snap-center">
+      <section id="experience"  className="snap-center">
         <ExperienceContainer data={experienceData}></ExperienceContainer>
       </section>
-      {/* <section id="projects" className="snap-start">
+      <section id="project"  className="snap-start">
         <ProjectContainer data={projectData}></ProjectContainer>
-      </section> */}
-      <section id="test" className="snap-start">
-        <TestContainer data={projectData}></TestContainer>
       </section>
+      <footer id="contact" className="snap-start">
+        <ContactContainer></ContactContainer>
+      </footer>
     </div>
   );
 }
