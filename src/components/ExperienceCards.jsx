@@ -34,12 +34,12 @@ export const ExperienceCards = ({data}) => {
     // MAIN CONTAINER
 
     
-    <div className='h-4/5 w-full py-20 px-10 relative group z-10'>
+    <div className='h-4/5 w-full pb-20 pt-4 px-10 relative group z-10'>
 
         {/* Image Container */}
         <div className='w-full h-full rounded-2xl  duration-500   backdrop-blur-xl overflow-y-scroll no-scrollbar relative bg-black/30'>
         <div className='absolute top-0 w-full bg-black z-30'>
-        <p className='flex justify-end pr-8 py-2 font-mono z-30'>{currentIndex} / 3</p>
+        <p className='flex justify-end pr-8 py-2 font-mono z-30'>{currentIndex +1}  / 3</p>
         </div>
             {/* Top Shadow */}
             {/* <div className=' w-full h-[50px] sticky top-0 flex justify-center items-center md:text-7xl text-2xl  z-20 bg-gradient-to-b from-gray-900 to-transparent'></div> */}
@@ -51,7 +51,7 @@ export const ExperienceCards = ({data}) => {
             {data[currentIndex].title === 'landing' ? 
 
                 <>
-                <div className='grid grid-cols-1 place-items-center relative  py-16 text-center  '>
+                <div className='grid grid-cols-1 place-items-center relative  pt-16 text-center  '>
 
                     <h3 className=' xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl text-2xl font-bold text-slate-100 bg-gradient-to-r from-slate-400 via-indigo-600 to-indigo-600 text-transparent bg-clip-text px-4 tracking-[3px] '> 
                     Previously Retouch Manager for JoJo Maman Bébé, now a General Assembly Software Engineer Graduate</h3>
@@ -71,27 +71,14 @@ export const ExperienceCards = ({data}) => {
                 <>
                     <div className='grid grid-cols-1 place-items-center relative '>
                         <motion.div
-                            initial={{
-                                y:-200
-                            }}
-                            whileInView={{
-                                opacity: 1,
-                                y: 0
-                            }}
-                            transition={{
-                                duration: 1.2
-                            }}
-                            viewport={{
-                                one: true
-                            }}
-                            className='pt-10 pb-10' key={data[currentIndex].title}>
+                            className='pt-10' key={data[currentIndex].title}>
 
                             <img className='md:w-60 md:h-60 w-32 h-32 rounded-full bg-gray-900 object-contain object-center p-4 mt-4 flex items-center justify-center border-2 border-indigo-700 ' src={require('./assets/experienceImages/' + data[currentIndex].image + '.png')} alt="" />
                         </motion.div>
 
                         <div className='pr-10 pl-10 '>
-                            <h4 className='xl:text-6xl md:text-5xl sm:text-4xl text-3xl pb-2 font-bold mt-2 bg-gradient-to-r from-slate-400 via-indigo-600 to-indigo-600 text-transparent bg-clip-text '>{data[currentIndex].title}</h4>
-                            <p className='xl:text-5xl md:text-4xl sm:text-3xl text-2xl pb-2 font-semibold  text-indigo-600 '>{data[currentIndex].company}</p>
+                            <h4 className='xl:text-6xl md:text-5xl sm:text-2xl text-2xl pb-2 font-bold mt-2 bg-gradient-to-r from-slate-500 via-indigo-600 to-slate-500 text-transparent bg-clip-text '>{data[currentIndex].title}</h4>
+                            <p className='xl:text-5xl md:text-4xl sm:text-3xl text-2xl pb-2 font-semibold  text-slate-600 '>{data[currentIndex].company}</p>
                             <p className='uppercase  text-indigo-600'>{data[currentIndex].dates}</p>
                             <div className='grid grid-cols-5 my-4 '>
                                 {data[currentIndex].skills.map((skill, index) => (

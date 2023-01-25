@@ -14,7 +14,7 @@ export const ContactContainer = () => {
 
 
 
-            <ContactForm className="z-50"></ContactForm>
+            <ContactForm className="z-40"></ContactForm>
 
 
 
