@@ -24,13 +24,12 @@ export const NavBar = () => {
                 {!nav ? <AiOutlineClose size={40}/> :  <AiOutlineMenu size={40}/>}
             </div>
             <div className={!nav ? 'fixed left-0 top-0 w-[100%] border-r border-r-gray-900 h-screen bg-gray-800 ease-in-out duration-500 md:hidden z-40' : 'fixed left-[-100%]'}>
-                <h1 className='w-full text-3xl font-bold text-[#6653ff] pl-4 pt-8 font-inter'>CHRISTOPHER CAREY.</h1>
-                <ul className='p-4'>
-                    <li className='p-4 border-b border-gray-100'>ABOUT</li>
-                    <li className='p-4 border-b border-gray-100'>HOME</li>
-                    <li className='p-4 border-b border-gray-100'>PROJECTS</li>
-                    <li className='p-4 border-b border-gray-100'>EXPERIENCE</li>
-                    <li className='p-4 border-b border-gray-100'>CONTACT</li>
+                <h1 className='w-full text-3xl font-bold text-[#6653ff] pl-4 pt-8 font-inter '>CHRISTOPHER CAREY.</h1>
+                <ul className='p-4 text-center'>
+                <a href="#landing" onClick={handleNav}><li className='p-4'>Home</li></a>
+                <a href="#experience" onClick={handleNav}><li className='p-4'>Experience</li></a>
+                <a href="#project"onClick={handleNav} ><li className='p-4'>Projects</li></a>
+                <a href="#contact"onClick={handleNav} ><li className='p-4' >Contact</li></a>
                 </ul>
             </div>
     </div>
