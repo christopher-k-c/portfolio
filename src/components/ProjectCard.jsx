@@ -9,7 +9,7 @@ return (
     <>
     
                     {/* Mobile Container */}
-                    <div id={card.name}  className={`m-6 overflow-hidden drop-shadow-xl bg-slate-800  snap-center`} >
+                    <div id={card.name}  className={`m-6 overflow-hidden  bg-slate-800  snap-center`} >
                         
                         {/* Site and Git-Hub Links */}
                         <div className=''>
