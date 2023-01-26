@@ -12,7 +12,7 @@ export const NavBar = () => {
 
 
   return (
-    <div className='max-w-[1440px] py-4  flex items-center justify-between w-full mx-auto text-slate-100 lg:items-center px-8'>
+    <div className='max-w-[1440px] py-4  flex items-center justify-between w-full mx-auto text-slate-100 lg:items-center px-8 z-50'>
         <a href="#landing"><h1 className=' text-3xl font-bold text-indigo-600 font-inter '>CHRISTOPHER CAREY.</h1></a>
             <ul className='hidden md:flex '>
                 <a href="#landing" ><li className='p-4'>Home</li></a>

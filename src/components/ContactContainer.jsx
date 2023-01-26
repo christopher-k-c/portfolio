@@ -5,7 +5,7 @@ export const ContactContainer = () => {
   return (
 
     <>
-        <div className=' relative '>
+        <div className=' relative h-screen  flex justify-center items-center'>
             
 
         <div className='absolute top-0 w-full z-0'>
@@ -14,7 +14,7 @@ export const ContactContainer = () => {
 
 
 
-            <ContactForm className="z-40"></ContactForm>
+            <ContactForm className="z-40 "></ContactForm>
 
 
 

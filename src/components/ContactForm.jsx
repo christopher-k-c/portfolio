@@ -8,7 +8,7 @@ export const ContactForm = () => {
 
 
 
-        <div className=' w-full flex justify-center items-center p-4'>
+        <div className=' w-3/5 sm:w-full flex justify-center items-center p-4 '>
 
             <form method='POST' action='https://getform.io/f/b1862744-26e4-4283-b5ac-d25f972fcc56' className='flex flex-col max-w-[600px] w-full h-full z-40'>
                 <div className='pb-8 text-center'>

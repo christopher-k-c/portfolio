@@ -31,7 +31,7 @@ function App() {
       <section id="project"  className="snap-start">
         <ProjectContainer data={projectData}></ProjectContainer>
       </section>
-      <footer id="contact" className="snap-start">
+      <footer id="contact" className="snap-center ">
         <ContactContainer></ContactContainer>
       </footer>
     </div>

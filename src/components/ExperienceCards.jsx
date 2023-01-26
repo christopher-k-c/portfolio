@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import {BsChevronCompactLeft, BsChevronCompactRight, BsChevronDoubleDown} from 'react-icons/bs'
 import {RxDotFilled} from 'react-icons/rx'
-import gif from './assets/experienceImages/terminal.gif'
+// import gif from './assets/experienceImages/terminal.gif'
 import {motion} from 'framer-motion'
 
 export const ExperienceCards = ({data}) => {
