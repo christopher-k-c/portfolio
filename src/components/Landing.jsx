@@ -1,7 +1,7 @@
 import React from 'react'
-import Typed from 'react-typed'
 import Portrait from './assets/landingImages/portrait-with-filter-01.jpg'
 import {motion} from 'framer-motion'
+import Typewriter from 'typewriter-effect';
 
 export const Landing = () => {
   return (
@@ -9,16 +9,20 @@ export const Landing = () => {
     <>
     <div className=' relative flex items-center justify-center text-center overflow-hidden px-4 '>
         <div className='max-w-[1240px] mx-auto grid grid-cols-1 xl:grid-cols-2'>
-            <div className='text-center xl:text-start w-full'>
-                
-                <h1 className='xl:text-8xl md:text-7xl sm:text-5xl text-4xl font-bold  text-slate-100 '>
-                    I'm a Junior <Typed 
-                    className=' bg-gradient-to-r from-slate-400 via-indigo-600 to-indigo-600 text-transparent bg-clip-text'
-                    strings={['Software Engineer']}
-                    typeSpeed={70} 
-                    /> 
+            <div className='text-center xl:text-start w-full'> 
+                <h1 className='xl:text-8xl md:text-7xl sm:text-5xl text-4xl font-bold  text-slate-100  '>
+                    I'm a Junior 
+                    <Typewriter 
+                        className='text-white'
+                        options={{
+                            strings: ['<span class="bg-gradient-to-r from-slate-400 via-indigo-600 to-indigo-600 text-transparent bg-clip-text">Software Engineer</span>'],
+                            autoStart: true,
+                            cursor: '|',
+                            cursorClassName: 'blinking-cursor',
+                            loop: true,
+                        }}
+                    />
                 </h1>
-
                 <motion.div
                             initial={{
                                 opacity: 0,
