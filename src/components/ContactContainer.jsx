@@ -5,7 +5,7 @@ export const ContactContainer = () => {
   return (
 
     <>
-        <div className=' relative h-screen  flex justify-center items-center'>
+        <div className=' relative   flex justify-center items-center'>
             
 
         <div className='absolute top-0 w-full z-0'>
