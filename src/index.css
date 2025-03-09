@@ -67,3 +67,31 @@
     opacity: 0;
   }
 }
+
+/* Add these at the top of your index.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Add this if you don't already have it */
+.test-gradient {
+  z-index: 0;
+  background-color: #1A1540;
+  background: radial-gradient(ellipse at top, rgb(22 18 55 / -40%), rgba(30, 0, 255, 0.3)), url(https://grainy-gradients.vercel.app/noise.svg);
+}

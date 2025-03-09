@@ -7,10 +7,10 @@ export const Landing = () => {
   return (
 
     <>
-    <div className=' relative flex items-center justify-center text-center overflow-hidden px-4 '>
-        <div className='max-w-[1240px] mx-auto grid grid-cols-1 xl:grid-cols-2'>
+    <div className=' relative flex items-center justify-center text-center overflow-hidden px-4 md:px-20 '>
+        <div className='max-w-[1240px] mx-auto grid grid-cols-1 xl:grid-cols-2 items-center justify-center'>
             <div className='text-center xl:text-start w-full'> 
-                <h1 className='xl:text-8xl md:text-7xl sm:text-5xl text-4xl font-bold  text-slate-100  '>
+                <h1 className='xl:text-6xl sm:text-5xl text-4xl font-bold  text-slate-100  '>
                     I'm a Junior 
                     <Typewriter 
                         className='text-white'
@@ -39,7 +39,10 @@ export const Landing = () => {
 
                             }}
                 >
-                <p className=' sm:text-sm lg:text-3xl text-sm font-mono md:py-6 py-4 text-slate-100'>2022 General Assembly Graduate based in London with a background in E-commerce post-production and management</p>
+                <p className=' sm:text-sm lg:text-2xl  text-sm font-mono md:py-6 py-4 text-slate-100'>
+                    {/* 2022 General Assembly Graduate based in London with a background in E-commerce post-production and management */}
+                    General Assembly alumnus specialising in full-stack web solutions and Adobe UXP plugins, backed by e-commerce post-production and management expertise.
+                </p>
                 <a href="#contact" className='cursor-pointer'>
                     <button className='drop-shadow-lg w-[200px] rounded-md mx-auto p-2 mt-4 font-bold text-1xl bg-indigo-600 text-black z-0 cursor-pointer'>Contact</button>
                 </a>
@@ -68,9 +71,10 @@ export const Landing = () => {
                 <img className='rounded-full hidden md:block md:w-40 lg:w-40 xl:w-[400px]  drop-shadow-xl border-2 border-indigo-600 m-10 xl:m-0'  src={Portrait} alt="Portrait of Chris" />
             </motion.div>
         </div>
+        
     </div>
 
-    
+   
     </>
   )
 }

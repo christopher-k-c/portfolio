@@ -3,14 +3,10 @@ import { ProjectCard } from './ProjectCard'
 
 export const ProjectGrid = ({projects}) => {
   return (
-
-    <>
-        <div className='grid lg:grid-cols-2 grid-cols-1 gap-10 snap-y snap-mandatory max-w-7xl mb-20 ' >
-            {projects.map((card, index) => {
-                return <ProjectCard card={card} key={index}></ProjectCard>
-            })}
-        </div>
-    </>
-
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-7xl mx-auto">
+      {projects.map((card, index) => (
+        <ProjectCard key={index} card={card} />
+      ))}
+    </div>
   )
 }

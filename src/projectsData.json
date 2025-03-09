@@ -1,11 +1,23 @@
-
-
-
 [
+    {
+        "name": "Newlook Photoshop Plugin", 
+        "git": "https://github.com/christopher-k-c/nlplugin", 
+        "site": "", 
+        "image": "project_05", 
+        "description": "As studio developer, I built an Adobe Photoshop plugin designed for the Newlook retouch team. This all-in-one automation solution centralizes essential retouching actions, scripts, and workflows, streamlining the team's editing process. ",
+        "tech": [
+            "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+
+        ]
+    },
     {
         "name": "Bootleg Bill", 
         "git": "https://github.com/christopher-k-c/SEI-64_PROJECT_FOUR_FRONT-END", 
-        "site": "https://mern-app-kajv.onrender.com/", 
+        "site": "https://bootleg-bills.herokuapp.com/products", 
         "image": "project_04", 
         "description": "Over nine days, through harnessing the MERN Stack, and as a group of three, we built an e-commerce-inspired website for bootlegged cassette tapes. ",
         "tech": [
@@ -20,7 +32,7 @@
     {
         "name": "The Phonograph", 
         "git": "https://github.com/christopher-k-c/SEI-64_PROJECT_THREE/tree/main/thephonograph",
-        "site": "https://thephonoapp.herokuapp.com/" ,
+        "site": "",
         "image": "project_03", 
         "description": "Inspired by Discogs.com, we built a full-stack record collection app in four days on a Django Framework, connected to a PostgreSQL database which utilised vanilla CSS, Tailwind and JavaScript to style its front-end.",
         "tech": [
@@ -28,7 +40,7 @@
             "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain-wordmark.svg",
             "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
             "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg",
-            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+            "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
 
         ]
    
@@ -36,7 +48,7 @@
     {
         "name": "Inventory Control App", 
         "git": "https://github.com/christopher-k-c/SEI-64_PROJECT_TWO",
-        "site": "https://inventorycontrolsystem02.herokuapp.com/" ,
+        "site": "",
         "image": "project_02", 
         "description": "Over four days, we built a web application with full CRUD operations, User Authentication and Association. The backend is powered by Node.js, Express, MongoDB and Mongoose; we utilised bootstrap templates and vanilla CSS for the front-end. I was team lead, responsible for user authentication and authorisation and more.",
         "tech": [
@@ -51,7 +63,7 @@
     {
         "name": "Tic Tac Toe", 
         "git": "https://github.com/christopher-k-c/SEI-64_PROJECT_ONE",
-        "site": "https://christopher-k-c.github.io/SEI-64_PROJECT_ONE/" ,
+        "site": "https://christopher-k-c.github.io/SEI-64_PROJECT_ONE/",
         "image": "project_01", 
         "description": "I built this project with HTML, CSS, JavaScript, JQuery and the SweetAlert Library. This app was my first experience programming in javascript, and the project took four days to complete.",
         "tech": [

@@ -1,5 +1,4 @@
 [
-        
     {   
         "title": "landing"
     },    
@@ -71,5 +70,25 @@
                 
         ]
        
+    },
+    {
+        "title": "Studio Retoucher & Adobe UXP Developer",
+        "company": "New Look",
+        "date": "2022-Present",
+        "tech": [
+            "Adobe UXP",
+            "JavaScript",
+            "React",
+            "Photoshop",
+            "Automation"
+        ],
+        "points": [
+            "Developing Adobe Photoshop plugins using UXP",
+            "Creating automation tools for the studio workflow",
+            "Managing image retouching for e-commerce",
+            "Implementing efficiency improvements",
+            "Collaborating with the digital production team"
+        ],
+        "image": "/path-to-your-image.jpg"
     }
 ]

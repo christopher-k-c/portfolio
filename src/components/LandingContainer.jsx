@@ -6,7 +6,7 @@ export const LandingContainer = () => {
 
 
     <>
-        <div className='relative flex items-center justify-center text-center  mt-40'>
+        <div className='relative flex items-center justify-center text-center mt-20 sm:mt-30'>
         <div className='z-40 '>
             <Landing></Landing>
         </div>
