@@ -1,5 +1,21 @@
 [
     {
+        "name": "Newlook Performance Analytics App", 
+        "git": "https://github.com/christopher-k-c/nlMetricsBackend", 
+        "site": "", 
+        "image": "project_06", 
+        "description": "A post-production dashboard tool designed to track New Look's retouching team's work. Retouchers can log daily outputs, differentiate various tasks, and add notes about their workday or specific tasks. Built with Next.js and Supabase authentication, this dashboard provides insights into both team and individual progress, helping improve workflows over time. ",
+        "tech": [
+            "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original-wordmark.svg"
+
+        ]
+    },
+    {
         "name": "Newlook Photoshop Plugin", 
         "git": "https://github.com/christopher-k-c/nlplugin", 
         "site": "", 
